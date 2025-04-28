@@ -1,0 +1,19 @@
+div{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+background:  repeating-radial-gradient(red, rgb(229, 20, 229),white 10px);
+animation-name: hi;
+animation-duration:3s ;
+animation-iteration-count: infinite;}
+@keyframes hi{
+    0%{
+        background:  repeating-radial-gradient(red, rgb(229, 20, 229),white 10px) left 0px,right 0px;
+    }
+    25%{
+        background:  repeating-radial-gradient(black, rgb(229, 20, 229),white 10px) left 0px,right 200px;
+    }
+    30%{
+        background:  repeating-radial-gradient(blue, rgb(229, 20, 229),white 10px)left 200px,right 200px;
+    }
+}
